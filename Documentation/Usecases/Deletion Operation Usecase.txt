@@ -1,0 +1,33 @@
+Usecase decription: The user send an object to the library to be persisted. The library checks if the object follows the library standards for a valid object.
+The library then delets the object from the database. The library displays a success message to the user.
+
+Triggers:
+1- User uses the library deletion function and sends the object to that function
+
+Actors:
+1- User
+
+Preconditions:
+1- The library have an established database connection
+
+Goals (Successful Conculstion):
+1- User object had been deleted successfuly
+
+Failed Conclusion:
+1- The object is invalid
+2- The object table does not exist in the database
+3- The object does not exist in the database
+
+Extensions (Alternatives): None
+
+1- User sends an object
+1A- Object is Invalid
+1B- Display an error to the user and halt the execution
+2- Object is validated
+2A- The object table does not exist in the database
+2B- Display an error to the user and halt the execution
+3- Object table existence is validated
+3A- The user object does not exist in the database
+3B- Display an error to the user and halt the execution
+4- Delete the object from the database
+5- Display a message to the user that the operation was successfuly completed.

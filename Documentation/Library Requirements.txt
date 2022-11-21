@@ -1,0 +1,5 @@
+1- User must not write neither SQL nor JDBC code when doing insertion, update, select and delete operations.
+2- The library must be written in a flexible way that makes the bussiness code decoupled from the library.
+3- The configuration must be flexible and the application code must not change when configurations are changed.
+4- The library quries must be safe and recoverable in case a failure happens during query execution.
+5- The library must accept the following data types (string, numbers, big numbers, date, time)
