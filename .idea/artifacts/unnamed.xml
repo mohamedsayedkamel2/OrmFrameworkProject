@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="archive" name="unnamed.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/com.orm.connection" />
+      <element id="dir-copy" path="$PROJECT_DIR$/com.orm.query" />
+      <element id="dir-copy" path="$PROJECT_DIR$/com.orm.model" />
+      <element id="dir-copy" path="$PROJECT_DIR$/com.orm.executor" />
+    </root>
+  </artifact>
+</component>

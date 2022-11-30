@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="OrmFrameworkProject" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="connection" target="19" />
+      <module name="executor" target="19" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: spring-jcl-5.3.23.jar annotations-13.0.jar kotlin-stdlib-1.7
+ .20.jar kotlin-stdlib-common-1.7.20.jar kotlin-stdlib-jdk7-1.7.20.jar m
+ ysql-connector-java-8.0.30.jar spring-core-5.3.23.jar protobuf-java-3.1
+ 9.4.jar kotlin-stdlib-jdk8-1.7.20.jar
+
